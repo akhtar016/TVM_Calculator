@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nmy.myapplication">
+
+    <application
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/tvmicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PresentValue" />
+        <activity android:name=".FutureValue" />
+        <activity android:name=".PvofOrdinaryAnnuity" />
+        <activity android:name=".FvOfOrdinaryAnnuity" />
+        <activity android:name=".PvOfAnnuityDue" />
+        <activity android:name=".FvAnnuityDue" />
+        <activity android:name=".PerpetualAnnuity" />
+
+
+        <activity android:name=".Main2Activity">
+
+
+
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+
+
+        </activity>
+
+    </application>
+
+</manifest>

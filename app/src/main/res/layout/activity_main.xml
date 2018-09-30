@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/pvBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background"
+            android:onClick="pvBtn"
+            android:padding="10dp"
+            android:text="@string/present_value"
+            android:textAllCaps="false"
+
+            android:textColor="#FFF"
+
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/fvBtn"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:onClick="fvBtn"
+            android:padding="10dp"
+            android:text="@string/future_value"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/pvOAfBtn"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:onClick="pvOAfBtn"
+            android:text="@string/pv_of_annuity"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:id="@+id/fvOAfBtn"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:onClick="fvOAfBtn"
+            android:text="@string/fv_of_annuity"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:id="@+id/pvADfBtn"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:onClick="pvAfBtn"
+            android:text="@string/pv_of_annuity_due"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:id="@+id/fvADfBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:onClick="fvAfBtn"
+            android:text="@string/fv_of_annuity_due"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/perpetualBtn"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:onClick="perBtn"
+            android:text="@string/pv_of_perpetual_annuity"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/developInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background"
+            android:onClick="developerInfo"
+            android:padding="10dp"
+            android:text="@string/developer_info"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

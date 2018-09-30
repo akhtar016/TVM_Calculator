@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TVM Calculator</string>
+    <string name="present_value_calculation">Future Value Calculation</string>
+    <string name="present_value">Present Value</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="enter_your_interest_rate">Enter Interest Rate Value</string>
+    <string name="enter_your_present_value">Enter Present Value</string>
+    <string name="year">Year</string>
+    <string name="enter_your_year">Enter Year Value</string>
+
+    <string name="enter_your_compound_rate">Compound Rate</string>
+    <string name="click_here_to_see_future_value">Click Here to See Future Value</string>
+    <string name="result">The Future Value is $</string>
+    <string name="compounding">Compounding</string>
+    <string name="co">Compounding</string>
+    <string name="value_calculation">Present Value Calculation</string>
+    <string name="future_value">Future Value</string>
+    <string name="re">The Present Value is $</string>
+    <string name="enter_future_value">Enter Future Value</string>
+    <string name="click_here_to_see_present_value">Click Here to See Present Value</string>
+    <string name="welcome_to_our_time_value_of_money_calculation_app">Welcome to Our TVM Calculation App</string>
+    <string name="v">Welcome</string>
+    <string name="future_value_calculation">Future Value Calculation</string>
+    <string name="calculation">Present Value Calculation</string>
+    <string name="welcome_to_our_app">Welcome to Our App</string>
+    <string name="todo">TODO</string>
+    <string name="developer_info">Developer Info</string>
+    <string name="pv_of_ordinary_annuity">PV of Annuity</string>
+    <string name="annuity_value">Annuity Value</string>
+    <string name="enter_annuity_value">Enter Annuity Value</string>
+    <string name="click_here_to_see_annuity_result">Click Here to See Annuity Result</string>
+    <string name="pv_of_ordinary_annuity_calculation">PV of Calculation</string>
+    <string name="fv_of_ordinary_annuity">FV of Ordinary Annuity</string>
+    <string name="fv_of_ordinary_annuity_calculation">FV of Annuity Calculation</string>
+    <string name="q">The Future Value of Ordinary Annuity is $</string>
+    <string name="pv_of_annuity_due">PV of Annuity Due</string>
+    <string name="fva_of_annuity_due">FV of Annuity Due</string>
+    <string name="sdf">The Future Value of Annuity Due is $</string>
+    <string name="fv_of_annuity_due">FV of Annuity Due</string>
+    <string name="pv_of_annuity_duem">PV of Annuity Due</string>
+    <string name="pv_of_perpetual_annuityl">PV of Perpetual Annuity</string>
+    <string name="pv_of_annuity_dueq">PV of Annuity Due</string>
+    <string name="p">The Present Value of  Perpetual Annuity is $</string>
+    <string name="w">The Present Value of Annuity Due is $</string>
+    <string name="l">The Present Value of Ordinary Annuity is $</string>
+    <string name="pv_of_perpetual_annuity">PV of Perpetual Annuity</string>
+    <string name="welcome_to_tvm_app">Welcome to TVM App</string>
+    <string name="pv_of_annuity">PV of Annuity</string>
+    <string name="tvm_calculator">TVM Calculator</string>
+    <string name="presen_value">Present Value</string>
+    <string name="futur_value">Future Value</string>
+    <string name="fv_of_annuity">FV of Annuity</string>
+
+</resources>
